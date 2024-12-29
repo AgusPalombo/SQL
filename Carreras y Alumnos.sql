@@ -67,15 +67,9 @@ INSERT INTO Carreras (ID, Nombre, FacultadID, CantidadMaterias, PromedioGeneralC
 (11, 'Odontología', 5, 42, 0.00);
 
 
--- SELECT ALL
-SELECT * FROM facultades;
-SELECT * FROM carreras;
-SELECT * FROM alumnos;
+-- TRIGGERS
 
-
--- ALGORITMO DE MODIFICACION DE PROMEDIOS GENERALES, PREVIO A LA INSERCION DE DATOS DE ALUMNOS
-
--- PROMEDIO DE FACULTAD
+-- TRIGGER PROMEDIO DE FACULTAD
 DELIMITER $$
 
 CREATE TRIGGER CalcularPromedioFacultadAfterInsert
@@ -100,7 +94,7 @@ END $$
 DELIMITER ;
 
 	
--- PROMEDIO DE CARRERA
+-- TRIGGER PROMEDIO DE CARRERA
 DELIMITER $$
 
 CREATE TRIGGER CalcularPromedioCarreraAfterInsert
@@ -143,6 +137,11 @@ INSERT INTO Alumnos (Nombre, Apellido, NombreFacultad, NombreCarrera, Promedio) 
 ('Marta', 'Moreno', 'Facultad de Derecho', 'Notariado', 6.3),
 ('Víctor', 'Cruz', 'Facultad de Ingeniería', 'Ingeniería Informática', 7.3);
 
+
+-- SELECT ALL
+SELECT * FROM facultades;
+SELECT * FROM carreras;
+SELECT * FROM alumnos;
 
 -- Chequear promedios de Medicina EJEMPLO
 SELECT Nombre, PromedioGeneralCarrera 
