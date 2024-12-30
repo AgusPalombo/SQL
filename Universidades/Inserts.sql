@@ -59,7 +59,6 @@ VALUES
 ('Maria', 'Fernández', '24153456', 54, 'Rector', 2300000, 'Universidad Nacional del Litoral', NULL),
 ('Carla', 'Martínez', '25123656', 53, 'Rector', 2350000, 'Universidad Nacional de Rosario', NULL),
 
-
 -- Decanos (uno por universidad)
 ('Juan', 'Pérez', '20123456', 55, 'Decano', 2500000, 'Universidad de Buenos Aires', NULL),
 ('María', 'López', '22123456', 52, 'Decano', 2400000, 'Universidad Nacional de Córdoba', NULL),
@@ -144,4 +143,5 @@ VALUES
 ('Diego', 'Morales', '48123456', 26, 'Universidad Nacional de La Plata', 'Facultad de Arquitectura', 'Arquitectura', 8.2),
 ('Mónica', 'Peralta', '49123456', 23, 'Universidad Nacional del Litoral', 'Facultad de Agronomía', 'Veterinaria', 7.5),
 ('Gustavo', 'Cruz', '50123456', 22, 'Universidad Nacional de Rosario', 'Facultad de Ciencias Económicas', 'Economía', 6.6);
+
 

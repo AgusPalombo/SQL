@@ -1,5 +1,5 @@
 -- Archivo: Tablas.sql
-
+CREATE DATABASE IF NOT EXISTS UniversidadesArgentina;
 USE UniversidadesArgentina;
 
 -- Tabla de Universidades
@@ -31,13 +31,15 @@ CREATE TABLE IF NOT EXISTS Personal (
     Apellido VARCHAR(50) NOT NULL,
     DNI VARCHAR(15) UNIQUE NOT NULL,
     Edad INT NOT NULL,
-    Rol ENUM('Profesor', 'Administrativo', 'Ejecutivo', 'Maestranza') NOT NULL,
+    Rol ENUM('Profesor', 'Administrativo', 'Decano', 'Maestranza', 'Rector', 'Director de aulas') NOT NULL,
     Sueldo DECIMAL(10,2) NOT NULL,
     NombreUniversidad VARCHAR(100) NOT NULL,
     NombreFacultad VARCHAR(100),
     FOREIGN KEY (NombreUniversidad) REFERENCES Universidades(Nombre),
     FOREIGN KEY (NombreFacultad) REFERENCES Facultades(Nombre)
 );
+
+
 
 -- Tabla de Alumnos
 CREATE TABLE IF NOT EXISTS Alumnos (
@@ -55,19 +57,5 @@ CREATE TABLE IF NOT EXISTS Alumnos (
     FOREIGN KEY (NombreCarrera) REFERENCES Carreras(Nombre)
 );
 
--- Tabla de Clases
-CREATE TABLE IF NOT EXISTS Clases (
-    ID INT PRIMARY KEY AUTO_INCREMENT,
-    Materia VARCHAR(100) NOT NULL,
-    NombreCarrera VARCHAR(100) NOT NULL,
-    NombreFacultad VARCHAR(100) NOT NULL,
-    HoraInicio TIME NOT NULL,
-    HoraFin TIME NOT NULL,
-    FechaExamen DATE,
-    FechaTP DATE,
-    FechaFinal DATE,
-    Turno ENUM('Mañana', 'Tarde', 'Noche') NOT NULL,
-    ListaAlumnos TEXT, -- Para guardar los nombres de alumnos separados por coma
-    FOREIGN KEY (NombreCarrera) REFERENCES Carreras(Nombre),
-    FOREIGN KEY (NombreFacultad) REFERENCES Facultades(Nombre)
-);
+
+
