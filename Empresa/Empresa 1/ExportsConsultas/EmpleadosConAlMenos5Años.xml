@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:html="http://www.w3.org/TR/REC-html40">
+<Worksheet ss:Name="Table1">
+	<Table>
+		<Column ss:Index="1" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Row>
+			<Cell><Data ss:Type="String">Nombre</Data></Cell>
+			<Cell><Data ss:Type="String">Fecha_Contratacion</Data></Cell>
+		</Row>
+
+		<Row>
+			<Cell><Data ss:Type="String">Juan Pérez</Data></Cell>
+			<Cell><Data ss:Type="String">2018-05-15</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Luis Torres</Data></Cell>
+			<Cell><Data ss:Type="String">2017-03-20</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Gabriel Castillo</Data></Cell>
+			<Cell><Data ss:Type="String">2016-10-08</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Carla Díaz</Data></Cell>
+			<Cell><Data ss:Type="String">2018-06-18</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Carlos Fernández</Data></Cell>
+			<Cell><Data ss:Type="String">2015-09-22</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Elena Silva</Data></Cell>
+			<Cell><Data ss:Type="String">2019-03-10</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Miguel Soto</Data></Cell>
+			<Cell><Data ss:Type="String">2016-07-30</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Laura Sánchez</Data></Cell>
+			<Cell><Data ss:Type="String">2017-12-01</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Andrés Vera</Data></Cell>
+			<Cell><Data ss:Type="String">2019-09-10</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Diego Navarro</Data></Cell>
+			<Cell><Data ss:Type="String">2015-11-20</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Ana Martínez</Data></Cell>
+			<Cell><Data ss:Type="String">2016-08-19</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Ricardo Campos</Data></Cell>
+			<Cell><Data ss:Type="String">2018-02-22</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Pedro Gómez</Data></Cell>
+			<Cell><Data ss:Type="String">2019-11-25</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Fernanda Rivera</Data></Cell>
+			<Cell><Data ss:Type="String">2017-05-14</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Santiago Núñez</Data></Cell>
+			<Cell><Data ss:Type="String">2016-03-12</Data></Cell>
+		</Row>	</Table>
+</Worksheet>
+</Workbook>

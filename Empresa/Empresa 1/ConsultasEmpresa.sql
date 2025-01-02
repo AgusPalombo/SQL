@@ -17,13 +17,13 @@ and v.Id_Venta is not null;
 -- Calcular el Promedio de Salario por Área
 SELECT a.Nombre_Area, AVG(e.Salario) AS Promedio_Salario
 FROM Empleados e
-JOIN Áreas a ON e.ID_Area = a.ID_Area
+JOIN Areas a ON e.Area = a.Nombre_Area
 GROUP BY a.Nombre_Area;
 
 -- Determinar los Empleados con Más de 5 Años en la Empresa
-SELECT e.Nombre, e.Fecha_Contratación
+SELECT e.Nombre, e.Fecha_Contratacion
 FROM Empleados e
-WHERE e.Fecha_Contratación <= DATE_SUB(CURDATE(), INTERVAL 5 YEAR);
+WHERE e.Fecha_Contratacion <= DATE_SUB(CURDATE(), INTERVAL 5 YEAR);
 
 -- Obtener el Total de Ventas Realizadas por Cada Empleado
 SELECT e.Nombre, SUM(v.Monto) AS Total_Ventas
@@ -34,10 +34,10 @@ ORDER BY Total_Ventas desc;
 
 -- Calcular el Porcentaje de Presupuesto Usado por Salarios en Cada Área
 SELECT a.Nombre_Area, 
-       (SUM(e.Salario) / a.Presupuesto_Anual) * 100 AS Porcentaje_Presupuesto
+       (SUM(e.Salario) / a.Presupuesto) * 100 AS Porcentaje_Presupuesto
 FROM Empleados e
-JOIN Áreas a ON e.ID_Area = a.ID_Area
-GROUP BY a.Nombre_Area, a.Presupuesto_Anual
+JOIN Areas a ON e.Area = a.Nombre_Area
+GROUP BY a.Nombre_Area, a.Presupuesto
 ORDER BY a.Presupuesto desc;
 
 -- Productos Más Vendidos por Cantidad

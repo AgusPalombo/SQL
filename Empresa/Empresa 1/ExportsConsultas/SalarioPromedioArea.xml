@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:html="http://www.w3.org/TR/REC-html40">
+<Worksheet ss:Name="Table1">
+	<Table>
+		<Column ss:Index="1" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Row>
+			<Cell><Data ss:Type="String">Nombre_Area</Data></Cell>
+			<Cell><Data ss:Type="String">Promedio_Salario</Data></Cell>
+		</Row>
+
+		<Row>
+			<Cell><Data ss:Type="String">Atención al Cliente</Data></Cell>
+			<Cell><Data ss:Type="Number">106666.66666666667</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Finanzas</Data></Cell>
+			<Cell><Data ss:Type="Number">232500</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Logística</Data></Cell>
+			<Cell><Data ss:Type="Number">143333.33333333334</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Marketing</Data></Cell>
+			<Cell><Data ss:Type="Number">170000</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Recursos Humanos</Data></Cell>
+			<Cell><Data ss:Type="Number">133333.33333333334</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Tecnología</Data></Cell>
+			<Cell><Data ss:Type="Number">305000</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Ventas</Data></Cell>
+			<Cell><Data ss:Type="Number">175000</Data></Cell>
+		</Row>	</Table>
+</Worksheet>
+</Workbook>

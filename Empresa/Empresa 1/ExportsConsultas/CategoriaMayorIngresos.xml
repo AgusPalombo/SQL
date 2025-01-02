@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:html="http://www.w3.org/TR/REC-html40">
+<Worksheet ss:Name="Table1">
+	<Table>
+		<Column ss:Index="1" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Row>
+			<Cell><Data ss:Type="String">Categoria</Data></Cell>
+			<Cell><Data ss:Type="String">Ingresos_Totales</Data></Cell>
+		</Row>
+
+		<Row>
+			<Cell><Data ss:Type="String">Electrónica</Data></Cell>
+			<Cell><Data ss:Type="Number">23000</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Calzado</Data></Cell>
+			<Cell><Data ss:Type="Number">2760</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Accesorios</Data></Cell>
+			<Cell><Data ss:Type="Number">1200</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Ropa</Data></Cell>
+			<Cell><Data ss:Type="Number">950</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Mobiliario</Data></Cell>
+			<Cell><Data ss:Type="Number">750</Data></Cell>
+		</Row>	</Table>
+</Worksheet>
+</Workbook>
