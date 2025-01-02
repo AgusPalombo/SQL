@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:html="http://www.w3.org/TR/REC-html40">
+<Worksheet ss:Name="Table1">
+	<Table>
+		<Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Row>
+			<Cell><Data ss:Type="String">ID</Data></Cell>
+			<Cell><Data ss:Type="String">Nombre</Data></Cell>
+			<Cell><Data ss:Type="String">Apellido</Data></Cell>
+			<Cell><Data ss:Type="String">NombreFacultad</Data></Cell>
+			<Cell><Data ss:Type="String">NombreCarrera</Data></Cell>
+			<Cell><Data ss:Type="String">Promedio</Data></Cell>
+		</Row>
+
+		<Row>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+			<Cell><Data ss:Type="String">Juan</Data></Cell>
+			<Cell><Data ss:Type="String">Pérez</Data></Cell>
+			<Cell><Data ss:Type="String">Facultad de Ingeniería</Data></Cell>
+			<Cell><Data ss:Type="String">Ingeniería Civil</Data></Cell>
+			<Cell><Data ss:Type="Number">7.50</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">2</Data></Cell>
+			<Cell><Data ss:Type="String">Ana</Data></Cell>
+			<Cell><Data ss:Type="String">López</Data></Cell>
+			<Cell><Data ss:Type="String">Facultad de Ingeniería</Data></Cell>
+			<Cell><Data ss:Type="String">Ingeniería Informática</Data></Cell>
+			<Cell><Data ss:Type="Number">8.00</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">3</Data></Cell>
+			<Cell><Data ss:Type="String">Carlos</Data></Cell>
+			<Cell><Data ss:Type="String">Gómez</Data></Cell>
+			<Cell><Data ss:Type="String">Facultad de Ingeniería</Data></Cell>
+			<Cell><Data ss:Type="String">Ingeniería Civil</Data></Cell>
+			<Cell><Data ss:Type="Number">6.90</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">4</Data></Cell>
+			<Cell><Data ss:Type="String">María</Data></Cell>
+			<Cell><Data ss:Type="String">Fernández</Data></Cell>
+			<Cell><Data ss:Type="String">Facultad de Derecho</Data></Cell>
+			<Cell><Data ss:Type="String">Abogacía</Data></Cell>
+			<Cell><Data ss:Type="Number">7.00</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">5</Data></Cell>
+			<Cell><Data ss:Type="String">Luis</Data></Cell>
+			<Cell><Data ss:Type="String">Martínez</Data></Cell>
+			<Cell><Data ss:Type="String">Facultad de Derecho</Data></Cell>
+			<Cell><Data ss:Type="String">Notariado</Data></Cell>
+			<Cell><Data ss:Type="Number">6.80</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">6</Data></Cell>
+			<Cell><Data ss:Type="String">Sofía</Data></Cell>
+			<Cell><Data ss:Type="String">Rodríguez</Data></Cell>
+			<Cell><Data ss:Type="String">Facultad de Derecho</Data></Cell>
+			<Cell><Data ss:Type="String">Abogacía</Data></Cell>
+			<Cell><Data ss:Type="Number">7.40</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">7</Data></Cell>
+			<Cell><Data ss:Type="String">Pedro</Data></Cell>
+			<Cell><Data ss:Type="String">González</Data></Cell>
+			<Cell><Data ss:Type="String">Facultad de Ciencias Económicas</Data></Cell>
+			<Cell><Data ss:Type="String">Contabilidad</Data></Cell>
+			<Cell><Data ss:Type="Number">6.50</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">8</Data></Cell>
+			<Cell><Data ss:Type="String">Lucía</Data></Cell>
+			<Cell><Data ss:Type="String">Sánchez</Data></Cell>
+			<Cell><Data ss:Type="String">Facultad de Ciencias Económicas</Data></Cell>
+			<Cell><Data ss:Type="String">Economía</Data></Cell>
+			<Cell><Data ss:Type="Number">7.10</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">9</Data></Cell>
+			<Cell><Data ss:Type="String">David</Data></Cell>
+			<Cell><Data ss:Type="String">Ramírez</Data></Cell>
+			<Cell><Data ss:Type="String">Facultad de Humanidades</Data></Cell>
+			<Cell><Data ss:Type="String">Historia</Data></Cell>
+			<Cell><Data ss:Type="Number">5.20</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="String">Paula</Data></Cell>
+			<Cell><Data ss:Type="String">Morales</Data></Cell>
+			<Cell><Data ss:Type="String">Facultad de Humanidades</Data></Cell>
+			<Cell><Data ss:Type="String">Sociología</Data></Cell>
+			<Cell><Data ss:Type="Number">6.90</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">11</Data></Cell>
+			<Cell><Data ss:Type="String">Javier</Data></Cell>
+			<Cell><Data ss:Type="String">Hernández</Data></Cell>
+			<Cell><Data ss:Type="String">Facultad de Humanidades</Data></Cell>
+			<Cell><Data ss:Type="String">Historia</Data></Cell>
+			<Cell><Data ss:Type="Number">6.80</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">12</Data></Cell>
+			<Cell><Data ss:Type="String">Isabel</Data></Cell>
+			<Cell><Data ss:Type="String">Torres</Data></Cell>
+			<Cell><Data ss:Type="String">Facultad de Medicina</Data></Cell>
+			<Cell><Data ss:Type="String">Medicina</Data></Cell>
+			<Cell><Data ss:Type="Number">8.20</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">13</Data></Cell>
+			<Cell><Data ss:Type="String">Fernando</Data></Cell>
+			<Cell><Data ss:Type="String">Díaz</Data></Cell>
+			<Cell><Data ss:Type="String">Facultad de Medicina</Data></Cell>
+			<Cell><Data ss:Type="String">Odontología</Data></Cell>
+			<Cell><Data ss:Type="Number">7.80</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">14</Data></Cell>
+			<Cell><Data ss:Type="String">Gabriela</Data></Cell>
+			<Cell><Data ss:Type="String">Gutiérrez</Data></Cell>
+			<Cell><Data ss:Type="String">Facultad de Medicina</Data></Cell>
+			<Cell><Data ss:Type="String">Enfermería</Data></Cell>
+			<Cell><Data ss:Type="Number">6.90</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">15</Data></Cell>
+			<Cell><Data ss:Type="String">Tomás</Data></Cell>
+			<Cell><Data ss:Type="String">Chavez</Data></Cell>
+			<Cell><Data ss:Type="String">Facultad de Medicina</Data></Cell>
+			<Cell><Data ss:Type="String">Medicina</Data></Cell>
+			<Cell><Data ss:Type="Number">7.20</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16</Data></Cell>
+			<Cell><Data ss:Type="String">Elena</Data></Cell>
+			<Cell><Data ss:Type="String">Suárez</Data></Cell>
+			<Cell><Data ss:Type="String">Facultad de Medicina</Data></Cell>
+			<Cell><Data ss:Type="String">Odontología</Data></Cell>
+			<Cell><Data ss:Type="Number">8.10</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">17</Data></Cell>
+			<Cell><Data ss:Type="String">Esteban</Data></Cell>
+			<Cell><Data ss:Type="String">Vega</Data></Cell>
+			<Cell><Data ss:Type="String">Facultad de Ciencias Económicas</Data></Cell>
+			<Cell><Data ss:Type="String">Economía</Data></Cell>
+			<Cell><Data ss:Type="Number">6.60</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">18</Data></Cell>
+			<Cell><Data ss:Type="String">Raúl</Data></Cell>
+			<Cell><Data ss:Type="String">Flores</Data></Cell>
+			<Cell><Data ss:Type="String">Facultad de Ciencias Económicas</Data></Cell>
+			<Cell><Data ss:Type="String">Contabilidad</Data></Cell>
+			<Cell><Data ss:Type="Number">7.40</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">19</Data></Cell>
+			<Cell><Data ss:Type="String">Marta</Data></Cell>
+			<Cell><Data ss:Type="String">Moreno</Data></Cell>
+			<Cell><Data ss:Type="String">Facultad de Derecho</Data></Cell>
+			<Cell><Data ss:Type="String">Notariado</Data></Cell>
+			<Cell><Data ss:Type="Number">6.30</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">20</Data></Cell>
+			<Cell><Data ss:Type="String">Víctor</Data></Cell>
+			<Cell><Data ss:Type="String">Cruz</Data></Cell>
+			<Cell><Data ss:Type="String">Facultad de Ingeniería</Data></Cell>
+			<Cell><Data ss:Type="String">Ingeniería Informática</Data></Cell>
+			<Cell><Data ss:Type="Number">7.30</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">21</Data></Cell>
+			<Cell><Data ss:Type="String">Laura</Data></Cell>
+			<Cell><Data ss:Type="String">González</Data></Cell>
+			<Cell><Data ss:Type="String">Facultad de Medicina</Data></Cell>
+			<Cell><Data ss:Type="String">Medicina</Data></Cell>
+			<Cell><Data ss:Type="Number">8.50</Data></Cell>
+		</Row>	</Table>
+</Worksheet>
+</Workbook>
